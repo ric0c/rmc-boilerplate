@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title> Style Guide </title>
+
+	<meta name="description" content="">
+	<meta property="og:title" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:url" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+
+	<!-- CSS -->
+	<link rel='stylesheet' href='style.css' type='text/css' media='all' />
+
+	<!-- FONTS -->
+
+	<!-- JS -->
+	<script type='text/javascript' src='js/html5shiv.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+
+	<!-- FAVICONS -->
+	<!-- 
+		Go to http://realfavicongenerator.net/ to generate icons 
+	-->
+
+	<!-- GOOGLE ANALYTICS -->
+
+	<style type="text/css">
+		* {
+		}
+		body {
+			background: #fff;
+		}
+		.guidesection table {
+			font-size: 1.2em;
+			margin: 1em 0em 5em 3em;
+			background: #fff;
+			padding: 1em;
+		}
+		th {
+			background: #444;
+			color: #eee;
+			font-size: 1em;
+			padding: 0.6em 3em;
+			font-weight: normal;
+		}
+		th#visual {
+			width:50%;
+		}
+		th#html {
+			width: 50%;
+		}
+		td {
+			font-size: 100%;
+		}
+		td * {
+			font-size: 100%;
+		}
+
+		h1.guideheading {
+			font-family: 'Amatic SC', cursive;
+			font-size: 4.5em;
+			font-weight: 700;
+			padding-top: 0.3em;
+
+		}
+
+		p#attribution {
+			color: #444;
+			padding: 0.3em 0.2em;
+		}
+
+		#denlogo {
+			float: left;
+			padding: 0 2.5em 0.2em 2.5em;
+
+		}
+		h2.guideheading {
+			color: #fff;
+			color: #333;
+			border-bottom: 1px dotted #333;
+			font-family: 'Amatic SC', cursive;
+			font-weight: 400;
+			margin-left: 0;
+			margin-bottom: 2em;
+			margin-top: 0.5em;
+			padding: 0 0 0.5em 1em;
+			font-size: 3.5em;
+		}
+
+		.guidesection {
+			padding: 0.5em 1em;
+			background: #eee;
+			margin: 1em 1em;
+		}
+		.guidesection div {
+			border: 1px solid #ddd;
+			background: #fff;
+			margin: 1em;
+			padding: 1.5em;
+		}
+
+		.guidesection div h3 {
+			font-size: 1.3em;
+			background: none;
+			color: #000;
+			font-weight: bold;
+			display: block;
+
+		}
+
+		.guidesection div pre {
+			font-size: 1.2em;
+			border: 1px dotted #aaa;
+			padding: 1em;
+			margin: 2em;
+			color: #666;
+		}
+	</style>
+
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, minimal-ui">
+
+</head>
+
+<body>
+
+		<img src="http://www.dencreative.com/wp-content/themes/den/images/den_creative_logo.png" id="denlogo" />
+		<h1 class="guideheading">HTML & Styles Guide</h1>
+
+		<p id="attribution">By <a style="color:#000;text-decoration:none;" href="http://www.dencreative.com" target="_blank">Den Creative Ltd. 2015</a></p>
+
+		<div class="guidesection">
+			<h2 class="guideheading">Text</h2>
+			<table>
+				<tr><th id="visual">Visual</th><th id="html">HTML</th></tr>
+				<tr><td><h1>Heading 1</h1></td><td>&lt;h1&gt;Heading 1&lt;h1&gt;</td></tr>
+				<tr><td><h2>Heading 2</h2></td><td>&lt;h2&gt;Heading 2&lt;h2&gt;</td></tr>
+				<tr><td><h3>Heading 3</h3></td><td>&lt;h3&gt;Heading 3&lt;h3&gt;</td></tr>
+				<tr><td><h4>Heading 4</h4></td><td>&lt;h4&gt;Heading 4&lt;h4&gt;</td></tr>
+				<tr><td><h5>Heading 5</h5></td><td>&lt;h5&gt;Heading 5&lt;h5&gt;</td></tr>
+				<tr><td><h6>Heading 6</h6></td><td>&lt;h6&gt;Heading 6&lt;h6&gt;</td></tr>
+
+				<tr><td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td><td>&lt;p&gt;Pellentesque habitant morbi...&lt;p&gt;</td></tr>
+
+				<tr><td><p class="center">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td><td>&lt;p class="center"&gt;Pellentesque habitant morbi...&lt;p&gt;</td></tr>
+
+				<tr><td><p class="justify">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td><td>&lt;p class="justify"&gt;Pellentesque habitant morbi...&lt;p&gt;</td></tr>
+
+				<tr><td><p class="right">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td><td>&lt;p class="right"&gt;Pellentesque habitant morbi...&lt;p&gt;</td></tr>
+
+				<tr><td><p class="orange">Paragraph content goes here.</p></td><td>&lt;p class="orange"&gt;Paragraph content goes here.&lt;p&gt;</td></tr>
+
+				<tr><td><p class="strong">Paragraph content goes here.</p></td><td>&lt;p class="strong"&gt;Paragraph content goes here.&lt;p&gt;</td></tr>
+
+				<tr><td><p class="strong orange">Paragraph content goes here.</p></td><td>&lt;p class="strong orange"&gt;Paragraph content goes here.&lt;p&gt;</td></tr>
+				<tr><td><p><u>Important:</u> Paragraph <strong>content</strong> goes <em>here</em>.</p></td><td>&lt;p&gt;&lt;u&gt;Important:&lt;/u&gt; Paragraph &lt;strong&gt;content&lt;/strong&gt; goes &lt;em&gt;here&lt;/em&gt;.&lt;p&gt;</td></tr>
+
+				<tr><td><p class="box">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td><td>&lt;p class="box"&gt;Pellentesque habitant morbi...&lt;p&gt;</td></tr>
+
+			</table>
+		</div>
+
+		<div class="guidesection">
+			<h2 class="guideheading">Structural</h2>
+			<div>
+				<h3>Horizontal Rule - &lt;hr&gt;</h3>
+				<hr>
+			</div>
+
+			<div>
+				<h3>Unordered List</h3>
+					<ul>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+					</ul>
+<pre>
+&lt;ul&gt;
+	&lt;li&gt;Item 1&lt;li&gt;
+	&lt;li&gt;Item 2&lt;li&gt;
+	&lt;li&gt;Item 3&lt;li&gt;
+	&lt;li&gt;Item 4&lt;li&gt;
+&lt;/ul&gt;
+</pre>
+				<h3>Ordered List</h3>
+					<ol>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+					</ol>
+<pre>
+&lt;ol&gt;
+	&lt;li&gt;Item 1&lt;li&gt;
+	&lt;li&gt;Item 2&lt;li&gt;
+	&lt;li&gt;Item 3&lt;li&gt;
+	&lt;li&gt;Item 4&lt;li&gt;
+&lt;/ol&gt;
+</pre>
+					<h3>With paragraphs/colour:</h3>
+					<ol>
+						<li>Item 1
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</li>
+
+						<li class="orange">Item 2
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</li>
+
+						<li>Item 3
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</li>
+
+						<li class="orange">Item 4
+							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</li>
+					</ol>
+<pre>
+&lt;ol&gt;
+	&lt;li&gt;Item 1
+		&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;p&gt;
+	&lt;li&gt;
+
+	&lt;li class="orange"&gt;Item 2
+		&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;p&gt;
+	&lt;li&gt;
+
+	&lt;li&gt;Item 3
+		&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;p&gt;
+	&lt;li&gt;
+
+	&lt;li class="orange"&gt;Item 4
+		&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;p&gt;
+	&lt;li&gt;
+&lt;/ol&gt;
+</pre>
+			</div>
+
+		</div>
+
+
+
+
+</body>
+
+</html>

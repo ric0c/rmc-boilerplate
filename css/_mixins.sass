@@ -1,0 +1,30 @@
+// Mixins
+
+=specAni($type, $duration)
+	-webkit-transition: $type $duration ease-in-out
+	-ms-transition: $type $duration ease-in-out
+	transition: $type $duration ease-in-out
+
+=vMargin($topBottom)
+	margin: $topBottom auto
+
+=customButtonReverseHover($borderThickness, $color, $background)
+	border: $borderThickness solid $color
+	color: $color
+	background: $background
+
+	&:hover
+		color: $background
+		background: $color
+		border-color: $background
+
+=flex($value)
+	-webkit-box-flex: $value
+	-webkit-flex: $value
+	-ms-flex: $value
+	flex: $value
+
+=flex-direction($value)
+	-webkit-flex-direction: $value
+	-ms-flex-direction: $value
+	flex-direction: $value
